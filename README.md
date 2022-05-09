@@ -15,15 +15,15 @@ Project contains 5 main files:
 - features (contains 2 python files, where are user and item features)
 - recommenders (contains 8 python files, all are different kinds of recommenders)
 
-There are 2 ".ipynb" files which contains code execution and are a main pat of the project
+There are 2 ".ipynb" files which contains code execution and they are main part of the project
 
 <br>
 
 ### Results
 
-The achieved result on RandomForestCBUIRecommender is HR@10 = 0.0139
+The achieved result on XGBoostCBUIRecommender is HR@10 = 0.0339
 
-<img src="assets/random-forest-result.png">
+<img src="assets/version2_xgboost_result.png">
 
 <br>
 
