@@ -140,22 +140,3 @@ class UserFeatures(object):
             return ["averange_length_of_stay", "averange_room_segment", "averange_n_people"]
 
         return interactions_df, get_feature_columns()
-        
-    @staticmethod
-    def u_feature(interactions_df):
-        """
-        Adds columns "most_popular_term", "most_popular_len_of_stay", "most_popular_rate_plan", "most_popular_room_segment", "most_popular_n_people", "most_popular_weekend_stay", which shows the percentage of popularity options, chose by user.
-
-        :param pd.DataFrame df: DataFrame interactions_df.
-        :return: A DataFrame with added columns, list of added column names.
-        :rtype: pd.DataFrame
-        """
-
-        #TO DO!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!S
-
-
-
-        def get_feature_columns():
-            return [""]
-
-        return interactions_df, get_feature_columns()
